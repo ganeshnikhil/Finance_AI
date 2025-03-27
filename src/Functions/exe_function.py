@@ -39,7 +39,8 @@ def execute_routing_call(function_call: dict) -> Union[None, dict, list]:
 
         # Handling dynamic function calling
         if func_name == "Function_calling":
-            list_of_tools = function_call_gem_gemini_similarity(args, ALL_FUNCTIONS=TOOL_FUNCTIONS, EXAMPLES=TOOL_FUNCTION_EXAMPLES)
+            new_args = "".join(args[k] for k in args.keys())
+            list_of_tools = function_call_gem_gemini_similarity(new_args, ALL_FUNCTIONS=TOOL_FUNCTIONS, EXAMPLES=TOOL_FUNCTION_EXAMPLES)
             results = []
 
             for tool in list_of_tools:
@@ -60,7 +61,7 @@ def execute_routing_call(function_call: dict) -> Union[None, dict, list]:
                 except Exception as e:
                     print(f"[!] Error executing '{tool_name}': {e}")
 
-            return results  # Return list of results from multiple tools
+            return "".join(results)  # Return list of results from multiple tools
 
         # If it's a direct function from ROUTING_MAP
         func = ROUTING_MAP.get(func_name)
