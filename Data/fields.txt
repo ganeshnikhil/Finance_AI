@@ -1,0 +1,542 @@
+Successfully retrieved the financial statements.
+['year', 'Tax Effect Of Unusual Items', 'Tax Rate For Calcs', 'Normalized EBITDA', 'Net Income From Continuing Operation Net Minority Interest', 'Reconciled Depreciation', 'Reconciled Cost Of Revenue', 'EBITDA', 'EBIT', 'Net Interest Income', 'Interest Expense', 'Interest Income', 'Normalized Income', 'Net Income From Continuing And Discontinued Operation', 'Total Expenses', 'Total Operating Income As Reported', 'Diluted Average Shares', 'Basic Average Shares', 'Diluted EPS', 'Basic EPS', 'Diluted NI Availto Com Stockholders', 'Net Income Common Stockholders', 'Net Income', 'Net Income Including Noncontrolling Interests', 'Net Income Continuous Operations', 'Tax Provision', 'Pretax Income', 'Other Income Expense', 'Other Non Operating Income Expenses', 'Net Non Operating Interest Income Expense', 'Interest Expense Non Operating', 'Interest Income Non Operating', 'Operating Income', 'Operating Expense', 'Research And Development', 'Selling General And Administration', 'Gross Profit', 'Cost Of Revenue', 'Total Revenue', 'Operating Revenue', 'Treasury Shares Number', 'Ordinary Shares Number', 'Share Issued', 'Net Debt', 'Total Debt', 'Tangible Book Value', 'Invested Capital', 'Working Capital', 'Net Tangible Assets', 'Capital Lease Obligations', 'Common Stock Equity', 'Total Capitalization', 'Total Equity Gross Minority Interest', 'Stockholders Equity', 'Gains Losses Not Affecting Retained Earnings', 'Other Equity Adjustments', 'Retained Earnings', 'Capital Stock', 'Common Stock', 'Total Liabilities Net Minority Interest', 'Total Non Current Liabilities Net Minority Interest', 'Other Non Current Liabilities', 'Tradeand Other Payables Non Current', 'Long Term Debt And Capital Lease Obligation', 'Long Term Capital Lease Obligation', 'Long Term Debt', 'Current Liabilities', 'Other Current Liabilities', 'Current Deferred Liabilities', 'Current Deferred Revenue', 'Current Debt And Capital Lease Obligation', 'Current Capital Lease Obligation', 'Current Debt', 'Other Current Borrowings', 'Commercial Paper', 'Payables And Accrued Expenses', 'Payables', 'Total Tax Payable', 'Income Tax Payable', 'Accounts Payable', 'Total Assets', 'Total Non Current Assets', 'Other Non Current Assets', 'Non Current Deferred Assets', 'Non Current Deferred Taxes Assets', 'Investments And Advances', 'Other Investments', 'Investmentin Financial Assets', 'Available For Sale Securities', 'Net PPE', 'Accumulated Depreciation', 'Gross PPE', 'Leases', 'Other Properties', 'Machinery Furniture Equipment', 'Land And Improvements', 'Properties', 'Current Assets', 'Other Current Assets', 'Inventory', 'Receivables', 'Other Receivables', 'Accounts Receivable', 'Cash Cash Equivalents And Short Term Investments', 'Other Short Term Investments', 'Cash And Cash Equivalents', 'Cash Equivalents', 'Cash Financial', 'Free Cash Flow', 'Repurchase Of Capital Stock', 'Repayment Of Debt', 'Issuance Of Debt', 'Issuance Of Capital Stock', 'Capital Expenditure', 'Interest Paid Supplemental Data', 'Income Tax Paid Supplemental Data', 'End Cash Position', 'Beginning Cash Position', 'Changes In Cash', 'Financing Cash Flow', 'Cash Flow From Continuing Financing Activities', 'Net Other Financing Charges', 'Cash Dividends Paid', 'Common Stock Dividend Paid', 'Net Common Stock Issuance', 'Common Stock Payments', 'Common Stock Issuance', 'Net Issuance Payments Of Debt', 'Net Short Term Debt Issuance', 'Net Long Term Debt Issuance', 'Long Term Debt Payments', 'Long Term Debt Issuance', 'Investing Cash Flow', 'Cash Flow From Continuing Investing Activities', 'Net Other Investing Changes', 'Net Investment Purchase And Sale', 'Sale Of Investment', 'Purchase Of Investment', 'Net Business Purchase And Sale', 'Purchase Of Business', 'Net PPE Purchase And Sale', 'Purchase Of PPE', 'Operating Cash Flow', 'Cash Flow From Continuing Operating Activities', 'Change In Working Capital', 'Change In Other Working Capital', 'Change In Other Current Liabilities', 'Change In Other Current Assets', 'Change In Payables And Accrued Expense', 'Change In Payable', 'Change In Account Payable', 'Change In Inventory', 'Change In Receivables', 'Changes In Account Receivables', 'Other Non Cash Items', 'Stock Based Compensation', 'Deferred Tax', 'Deferred Income Tax', 'Depreciation Amortization Depletion', 'Depreciation And Amortization', 'Net Income From Continuing Operations', 'period_category']
+
+
+["date", "reportedCurrency", "fillingDate", "acceptedDate", "calendarYear", "period", "revenue", 
+    "costOfReve", "grossProfit", "grossProfitRatio", "researchAndDevelopmentExpenses", "generalAndAdministrativeExpenses", 
+    "sellingAndMarketingExpenses", "sellingGeneralAndAdministrativeExpenses", "otherExpenses", "operatingExpenses", 
+    "costAndExpenses", "interestIncome", "interestExpense", "depreciationAndAmortization", "ebitda", "ebitdaratio", 
+    "operatingIncome", "operatingIncomeRatio", "totalOtherIncomeExpensesNet", "incomeBeforeTax", "incomeBeforeTaxRatio", 
+    "incomeTaxExpense", "netIncome", "netIncomeRatio", "eps", "epsiluted", "weightedAverageShsOut", "weightedAverageShsOutDil", 
+    "fi", "cashAndCashEquivalents", "shortTermInvestments", "cashAndShortTermInvestments", "netReceivables", "inventory", 
+    "otherCurrentAssets", "totalCurrentA", "propertyPlantEquipmentNet", "goodwill", "tangibleAssets", "goodwillAndIntangibleAssets", 
+    "longTermInvestments", "taxAssets", "otherNonCurrentAsse", "totalNonCurrentAssets", "otherAssets", "totalAssets", 
+    "accountPayables", "shortTermDebt", "taxPayables", "deferredRevenue", "otherCurrentLiabilities", "totalCurrentLiabilities", 
+    "longTermDebt", "deferredRevenueNonCurrent", "deferredTaxLiabilitiesNonCurrent", "otherNonCurrentLiabilities", 
+    "totalNonCurrentLiabilities", "otherLiabilities", "capitalLeaseObligations", "totalLiabilities", "preferredStock", 
+    "commonStock", "retainedEarnings", "accumulatedotherComprehensiveIncomeLoss", "othertotalStockholdersEquity", 
+    "totalStockholdersEquity", "totalEquity", "totalLiabilitiesAndStockho", "minorityInterest", "totalLiabilitiesAndTotalEquity", 
+    "totalInvestments", "totalDebt", "netDebt", "deferredIncomeTax", "stockBasedCompensation", "changeInWorkingCapital", 
+    "accountsReceivables", "accountsPayables", "otherWorkingCapital", "otherNonCashItems", "netCashProvidedByOperatingActivi", 
+    "investmentsInPropertyPlantAndEquipment", "acquisitionNet", "purchasesOfInvestments", "salesMaturitiesOfInvestments", 
+    "otherInvestingActivites", "netCashUsedForInvestingActivites", "debtRepayment", "commonStockIssued", "commonStockRepurchased", 
+    "dividendsPaid", "otherFinancingActivites", "netCashUsedProvidedByFinancingActivities", "effectOfForexChangesOnCash", 
+    "netChangeInCash", "cashAtEndOfPeriod", "cashAtBeginningOfPeriod", "operatingCashFlow", "capitalExpenditure", "freeCashFlow", 
+    "period_category", "adjusted_operatingIncome", "adjusted_ebitda", "adjusted_earnings", "adj", "funds_from_operations_FFO", 
+    "funds_from_operations_FFO_per_share", "freeCashFlow_per_share", "operatingCashFlow_per_share", "adjusted_ebitda_ma", 
+    "adjusted_earnings_margin", "grossProfitMargin"]
+
+
+
+
+
+=== Test Query 1: What is the current price of Apple stock (AAPL)? ===
+Processing with ['rag_query_resolver', 'function_calling']: What is the current price of Apple stock (AAPL)?
+Result: {
+  "status": "success",
+  "original_query": "What is the current price of Apple stock (AAPL)?",
+  "suggested_tools": [
+    "rag_query_resolver",
+    "function_calling"
+  ],
+  "selected_tools": [
+    "function_calling"
+  ],
+  "final_tools": [
+    "rag_query_resolver",
+    "function_calling"
+  ],
+  "function_calls": [
+    {
+      "name": "function_calling",
+      "args": {
+        "query": "What is the current price of Apple stock (AAPL)?"
+      }
+    }
+  ],
+  "result": [
+    {
+      "tool": "rag_query_resolver",
+      "query": "What is the current price of Apple stock (AAPL)?",
+      "status": "processed"
+    },
+    {
+      "tool": "function_calling",
+      "query": "What is the current price of Apple stock (AAPL)?",
+      "status": "processed"
+    }
+  ]
+}
+
+=== Test Query 2: Who is the CEO of JPMorgan Chase? ===
+Processing with ['rag_query_resolver']: Who is the CEO of JPMorgan Chase?
+Result: {
+  "status": "success",
+  "original_query": "Who is the CEO of JPMorgan Chase?",
+  "suggested_tools": [
+    "rag_query_resolver"
+  ],
+  "selected_tools": [
+    "rag_query_resolver"
+  ],
+  "final_tools": [
+    "rag_query_resolver"
+  ],
+  "function_calls": [
+    {
+      "name": "rag_query_resolver",
+      "args": {
+        "query": "Who is the CEO of JPMorgan Chase?"
+      }
+    }
+  ],
+  "result": [
+    {
+      "tool": "rag_query_resolver",
+      "query": "Who is the CEO of JPMorgan Chase?",
+      "status": "processed"
+    }
+  ]
+}
+
+=== Test Query 3: Analyze the revenue growth of Microsoft over the past 5 years. ===
+Processing with ['data_analysis']: Analyze the revenue growth of Microsoft over the past 5 years.
+Result: {
+  "status": "success",
+  "original_query": "Analyze the revenue growth of Microsoft over the past 5 years.",
+  "suggested_tools": [
+    "data_analysis"
+  ],
+  "selected_tools": [
+    "data_analysis"
+  ],
+  "final_tools": [
+    "data_analysis"
+  ],
+  "function_calls": [
+    {
+      "name": "data_analysis",
+      "args": {
+        "query": "Analyze the revenue growth of Microsoft over the past 5 years."
+      }
+    }
+  ],
+  "result": [
+    {
+      "tool": "data_analysis",
+      "query": "Analyze the revenue growth of Microsoft over the past 5 years.",
+      "status": "processed"
+    }
+  ]
+}
+
+=== Test Query 4: Get the real-time stock quote for Google. ===
+Processing with ['rag_query_resolver', 'function_calling']: Get the real-time stock quote for Google.
+Result: {
+  "status": "success",
+  "original_query": "Get the real-time stock quote for Google.",
+  "suggested_tools": [
+    "rag_query_resolver",
+    "function_calling"
+  ],
+  "selected_tools": [
+    "function_calling"
+  ],
+  "final_tools": [
+    "rag_query_resolver",
+    "function_calling"
+  ],
+  "function_calls": [
+    {
+      "name": "function_calling",
+      "args": {
+        "query": "Get the real-time stock quote for Google."
+      }
+    }
+  ],
+  "result": [
+    {
+      "tool": "rag_query_resolver",
+      "query": "Get the real-time stock quote for Google.",
+      "status": "processed"
+    },
+    {
+      "tool": "function_calling",
+      "query": "Get the real-time stock quote for Google.",
+      "status": "processed"
+    }
+  ]
+}
+
+=== Test Query 5: What are some interesting facts about the history of finance? ===
+Processing with ['direct_gemini_interaction']: What are some interesting facts about the history of finance?
+Result: {
+  "status": "success",
+  "original_query": "What are some interesting facts about the history of finance?",
+  "suggested_tools": [
+    "rag_query_resolver",
+    "direct_gemini_interaction"
+  ],
+  "selected_tools": [
+    "direct_gemini_interaction"
+  ],
+  "final_tools": [
+    "direct_gemini_interaction"
+  ],
+  "function_calls": [
+    {
+      "name": "direct_gemini_interaction",
+      "args": {
+        "query": "What are some interesting facts about the history of finance?"
+      }
+    }
+  ],
+  "result": [
+    {
+      "tool": "direct_gemini_interaction",
+      "query": "What are some interesting facts about the history of finance?",
+      "status": "processed"
+    }
+  ]
+}
+
+=== Test Query 6: Analyze Tesla's stock trends and fetch its current price. ===
+Processing with ['rag_query_resolver', 'data_analysis', 'function_calling']: Analyze Tesla's stock trends and fetch its current price.
+Result: {
+  "status": "success",
+  "original_query": "Analyze Tesla's stock trends and fetch its current price.",
+  "suggested_tools": [
+    "rag_query_resolver",
+    "data_analysis",
+    "function_calling"
+  ],
+  "selected_tools": [
+    "function_calling",
+    "data_analysis"
+  ],
+  "final_tools": [
+    "rag_query_resolver",
+    "data_analysis",
+    "function_calling"
+  ],
+  "function_calls": [
+    {
+      "name": "data_analysis",
+      "args": {
+        "query": "Analyze Tesla's stock trends"
+      }
+    },
+    {
+      "name": "function_calling",
+      "args": {
+        "query": "Fetch Tesla's current price"
+      }
+    }
+  ],
+  "result": [
+    {
+      "tool": "rag_query_resolver",
+      "query": "Analyze Tesla's stock trends and fetch its current price.",
+      "status": "processed"
+    },
+    {
+      "tool": "data_analysis",
+      "query": "Analyze Tesla's stock trends and fetch its current price.",
+      "status": "processed"
+    },
+    {
+      "tool": "function_calling",
+      "query": "Analyze Tesla's stock trends and fetch its current price.",
+      "status": "processed"
+    }
+  ]
+}
+
+
+
+
+
+{
+    "address1": "One Microsoft Way",
+    "city": "Redmond",
+    "state": "WA",
+    "zip": "98052-6399",
+    "country": "United States",
+    "phone": "425 882 8080",
+    "website": "https://www.microsoft.com",
+    "industry": "Software - Infrastructure",
+    "industryKey": "software-infrastructure",
+    "industryDisp": "Software - Infrastructure",
+    "sector": "Technology",
+    "sectorKey": "technology",
+    "sectorDisp": "Technology",
+    "longBusinessSummary": "Microsoft Corporation develops and supports software, services, devices and solutions worldwide. The Productivity and Business Processes segment offers office, exchange, SharePoint, Microsoft Teams, office 365 Security and Compliance, Microsoft viva, and Microsoft 365 copilot; and office consumer services, such as Microsoft 365 consumer subscriptions, Office licensed on-premises, and other office services. This segment also provides LinkedIn; and dynamics business solutions, including Dynamics 365, a set of intelligent, cloud-based applications across ERP, CRM, power apps, and power automate; and on-premises ERP and CRM applications. The Intelligent Cloud segment offers server products and cloud services, such as azure and other cloud services; SQL and windows server, visual studio, system center, and related client access licenses, as well as nuance and GitHub; and enterprise services including enterprise support services, industry solutions, and nuance professional services. The More Personal Computing segment offers Windows, including windows OEM licensing and other non-volume licensing of the Windows operating system; Windows commercial comprising volume licensing of the Windows operating system, windows cloud services, and other Windows commercial offerings; patent licensing; and windows Internet of Things; and devices, such as surface, HoloLens, and PC accessories. Additionally, this segment provides gaming, which includes Xbox hardware and content, and first- and third-party content; Xbox game pass and other subscriptions, cloud gaming, advertising, third-party disc royalties, and other cloud services; and search and news advertising, which includes Bing, Microsoft News and Edge, and third-party affiliates. The company sells its products through OEMs, distributors, and resellers; and directly through digital marketplaces, online, and retail stores. The company was founded in 1975 and is headquartered in Redmond, Washington.",
+    "fullTimeEmployees": 228000,
+    "companyOfficers": [
+        {
+            "maxAge": 1,
+            "name": "Mr. Satya  Nadella",
+            "age": 57,
+            "title": "Chairman & CEO",
+            "yearBorn": 1967,
+            "fiscalYear": 2024,
+            "totalPay": 7869791,
+            "exercisedValue": 0,
+            "unexercisedValue": 0
+        },
+        {
+            "maxAge": 1,
+            "name": "Mr. Bradford L. Smith LCA",
+            "age": 65,
+            "title": "President & Vice Chairman",
+            "yearBorn": 1959,
+            "fiscalYear": 2024,
+            "totalPay": 4755618,
+            "exercisedValue": 0,
+            "unexercisedValue": 0
+        },
+        {
+            "maxAge": 1,
+            "name": "Ms. Amy E. Hood",
+            "age": 52,
+            "title": "Executive VP & CFO",
+            "yearBorn": 1972,
+            "fiscalYear": 2024,
+            "totalPay": 4704250,
+            "exercisedValue": 0,
+            "unexercisedValue": 0
+        },
+        {
+            "maxAge": 1,
+            "name": "Mr. Judson B. Althoff",
+            "age": 50,
+            "title": "Executive VP & Chief Commercial Officer",
+            "yearBorn": 1974,
+            "fiscalYear": 2024,
+            "totalPay": 4534974,
+            "exercisedValue": 0,
+            "unexercisedValue": 0
+        },
+        {
+            "maxAge": 1,
+            "name": "Mr. Christopher David Young",
+            "age": 52,
+            "title": "Executive Officer",
+            "yearBorn": 1972,
+            "fiscalYear": 2024,
+            "totalPay": 2993772,
+            "exercisedValue": 0,
+            "unexercisedValue": 0
+        },
+        {
+            "maxAge": 1,
+            "name": "Ms. Carolina  Dybeck Happe",
+            "age": 52,
+            "title": "Executive VP & COO",
+            "yearBorn": 1972,
+            "fiscalYear": 2024,
+            "exercisedValue": 0,
+            "unexercisedValue": 0
+        },
+        {
+            "maxAge": 1,
+            "name": "Ms. Alice L. Jolla",
+            "age": 58,
+            "title": "Corporate VP & Chief Accounting Officer",
+            "yearBorn": 1966,
+            "fiscalYear": 2024,
+            "exercisedValue": 0,
+            "unexercisedValue": 0
+        },
+        {
+            "maxAge": 1,
+            "name": "Mr. James Kevin Scott",
+            "age": 52,
+            "title": "Executive VP of AI & CTO",
+            "yearBorn": 1972,
+            "fiscalYear": 2024,
+            "exercisedValue": 0,
+            "unexercisedValue": 0
+        },
+        {
+            "maxAge": 1,
+            "name": "Mr. Brett  Iversen",
+            "title": "Vice President of Investor Relations",
+            "fiscalYear": 2024,
+            "exercisedValue": 0,
+            "unexercisedValue": 0
+        },
+        {
+            "maxAge": 1,
+            "name": "Mr. Hossein  Nowbar",
+            "title": "Chief Legal Officer",
+            "fiscalYear": 2024,
+            "exercisedValue": 0,
+            "unexercisedValue": 0
+        }
+    ],
+    "auditRisk": 9,
+    "boardRisk": 5,
+    "compensationRisk": 3,
+    "shareHolderRightsRisk": 2,
+    "overallRisk": 3,
+    "governanceEpochDate": 1740787200,
+    "compensationAsOfEpochDate": 1735603200,
+    "irWebsite": "http://www.microsoft.com/investor/default.aspx",
+    "executiveTeam": [],
+    "maxAge": 86400,
+    "priceHint": 2,
+    "previousClose": 396.89,
+    "open": 392.09,
+    "dayLow": 385.54,
+    "dayHigh": 394.8,
+    "regularMarketPreviousClose": 396.89,
+    "regularMarketOpen": 392.09,
+    "regularMarketDayLow": 385.54,
+    "regularMarketDayHigh": 394.8,
+    "dividendRate": 3.32,
+    "dividendYield": 0.84,
+    "exDividendDate": 1740009600,
+    "payoutRatio": 0.2482,
+    "fiveYearAvgDividendYield": 0.85,
+    "beta": 0.914,
+    "trailingPE": 31.641994,
+    "forwardPE": 26.308361,
+    "volume": 21158694,
+    "regularMarketVolume": 21158694,
+    "averageVolume": 22573520,
+    "averageVolume10days": 25052870,
+    "averageDailyVolume10Day": 25052870,
+    "bid": 385.08,
+    "ask": 412.02,
+    "bidSize": 1,
+    "askSize": 1,
+    "marketCap": 2923858493440,
+    "fiftyTwoWeekLow": 381.0,
+    "fiftyTwoWeekHigh": 468.35,
+    "priceToSalesTrailing12Months": 11.168205,
+    "fiftyDayAverage": 417.5928,
+    "twoHundredDayAverage": 425.34195,
+    "trailingAnnualDividendRate": 3.16,
+    "trailingAnnualDividendYield": 0.007961904,
+    "currency": "USD",
+    "tradeable": false,
+    "enterpriseValue": 2955213537280,
+    "profitMargins": 0.35428002,
+    "floatShares": 7423649000,
+    "sharesOutstanding": 7433979904,
+    "sharesShort": 53633341,
+    "sharesShortPriorMonth": 61735926,
+    "sharesShortPreviousMonthDate": 1736899200,
+    "dateShortInterest": 1739491200,
+    "sharesPercentSharesOut": 0.0072000003,
+    "heldPercentInsiders": 0.0029300002,
+    "heldPercentInstitutions": 0.74379,
+    "shortRatio": 2.27,
+    "shortPercentOfFloat": 0.0072000003,
+    "impliedSharesOutstanding": 7433979904,
+    "bookValue": 40.712,
+    "priceToBook": 9.660788,
+    "lastFiscalYearEnd": 1719705600,
+    "nextFiscalYearEnd": 1751241600,
+    "mostRecentQuarter": 1735603200,
+    "earningsQuarterlyGrowth": 0.102,
+    "netIncomeToCommon": 92749996032,
+    "trailingEps": 12.43,
+    "forwardEps": 14.95,
+    "lastSplitFactor": "2:1",
+    "lastSplitDate": 1045526400,
+    "enterpriseToRevenue": 11.288,
+    "enterpriseToEbitda": 20.805,
+    "52WeekChange": -0.027711868,
+    "SandP52WeekChange": 0.12744582,
+    "lastDividendValue": 0.83,
+    "lastDividendDate": 1740009600,
+    "quoteType": "EQUITY",
+    "currentPrice": 393.31,
+    "targetHighPrice": 650.0,
+    "targetLowPrice": 420.0,
+    "targetMeanPrice": 506.251,
+    "targetMedianPrice": 500.0,
+    "recommendationMean": 1.40351,
+    "recommendationKey": "strong_buy",
+    "numberOfAnalystOpinions": 50,
+    "totalCash": 71554998272,
+    "totalCashPerShare": 9.625,
+    "ebitda": 142041006080,
+    "totalDebt": 102909001728,
+    "quickRatio": 1.204,
+    "currentRatio": 1.351,
+    "totalRevenue": 261802000384,
+    "debtToEquity": 33.998,
+    "revenuePerShare": 35.224,
+    "returnOnAssets": 0.14649001,
+    "returnOnEquity": 0.34291,
+    "grossProfits": 181714993152,
+    "freeCashflow": 51958124544,
+    "operatingCashflow": 125582999552,
+    "earningsGrowth": 0.102,
+    "revenueGrowth": 0.123,
+    "grossMargins": 0.69408995,
+    "ebitdaMargins": 0.54255,
+    "operatingMargins": 0.45458,
+    "financialCurrency": "USD",
+    "symbol": "MSFT",
+    "language": "en-US",
+    "region": "US",
+    "typeDisp": "Equity",
+    "quoteSourceName": "Nasdaq Real Time Price",
+    "triggerable": true,
+    "customPriceAlertConfidence": "HIGH",
+    "marketState": "CLOSED",
+    "shortName": "Microsoft Corporation",
+    "longName": "Microsoft Corporation",
+    "postMarketTime": 1741395583,
+    "regularMarketTime": 1741381200,
+    "market": "us_market",
+    "esgPopulated": false,
+    "earningsTimestamp": 1738184400,
+    "earningsTimestampStart": 1745438400,
+    "earningsTimestampEnd": 1745870400,
+    "earningsCallTimestampStart": 1738189800,
+    "earningsCallTimestampEnd": 1738189800,
+    "isEarningsDateEstimate": true,
+    "epsTrailingTwelveMonths": 12.43,
+    "epsForward": 14.95,
+    "epsCurrentYear": 13.1822,
+    "priceEpsCurrentYear": 29.836445,
+    "fiftyDayAverageChange": -24.282806,
+    "fiftyDayAverageChangePercent": -0.058149483,
+    "twoHundredDayAverageChange": -32.03195,
+    "twoHundredDayAverageChangePercent": -0.0753087,
+    "sourceInterval": 15,
+    "exchangeDataDelayedBy": 0,
+    "averageAnalystRating": "1.4 - Strong Buy",
+    "cryptoTradeable": false,
+    "regularMarketChangePercent": -0.9020174,
+    "regularMarketPrice": 393.31,
+    "corporateActions": [],
+    "exchange": "NMS",
+    "messageBoardId": "finmb_21835",
+    "exchangeTimezoneName": "America/New_York",
+    "exchangeTimezoneShortName": "EST",
+    "gmtOffSetMilliseconds": -18000000,
+    "hasPrePostMarketData": true,
+    "firstTradeDateMilliseconds": 511108200000,
+    "postMarketChangePercent": -0.190689,
+    "postMarketPrice": 392.56,
+    "postMarketChange": -0.75,
+    "regularMarketChange": -3.580017,
+    "regularMarketDayRange": "385.54 - 394.8",
+    "fullExchangeName": "NasdaqGS",
+    "averageDailyVolume3Month": 22573520,
+    "fiftyTwoWeekLowChange": 12.309998,
+    "fiftyTwoWeekLowChangePercent": 0.032309704,
+    "fiftyTwoWeekRange": "381.0 - 468.35",
+    "fiftyTwoWeekHighChange": -75.04001,
+    "fiftyTwoWeekHighChangePercent": -0.16022207,
+    "fiftyTwoWeekChangePercent": -2.7711868,
+    "dividendDate": 1741824000,
+    "displayName": "Microsoft",
+    "trailingPegRatio": 1.7924
+}
