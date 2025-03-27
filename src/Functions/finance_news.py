@@ -45,6 +45,7 @@ def yfinance_news(raw_news_data):
     
     for article in raw_news_data:
         # Safely extract article information
+        article = article.get("content")
         formatted_article = {
             "title": article.get("title", "No Title"),
             "summary": article.get("summary", "No Summary Available"),
