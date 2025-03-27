@@ -38,7 +38,7 @@ def execute_routing_call(function_call: dict) -> Union[None, dict, list]:
             return None  # No function provided
 
         # Handling dynamic function calling
-        if func_name == "Function_calling":
+        if func_name == "function_calling":
             new_args = "".join(args[k] for k in args.keys())
             list_of_tools = function_call_gem_gemini_similarity(new_args, ALL_FUNCTIONS=TOOL_FUNCTIONS, EXAMPLES=TOOL_FUNCTION_EXAMPLES)
             results = []
