@@ -69,28 +69,18 @@ def extract_key_metrics(ticker):
     # Return stock data and historical trends
     return stock_data, data.get("history")
 
+
 def get_stock_overview(ticker):
     """Fetch and return the full stock overview, insights, and historical data."""
     stock_data, history = extract_key_metrics(ticker)
     
-    # Convert financial metrics to a DataFrame (transposed for readability)
-    financial_df = pd.DataFrame([stock_data]).T
-    
-    # Prepare data for insights generation
-    summary_data = []
-    
-    # Append key metrics for summarization
-    for key, value in stock_data.items():
-        summary_data.append(f"{key}: {value}")
-    
     # Add historical trends for context
-    if history is not None and not history.empty:
-        summary_data.append(f"Historical Performance (Last 5 Days): {history.to_dict('records')}")
+    if stock_data is not None and not history.empty:
+        stock_data["history"] = f"Historical Performance (Last 5 Days): {history.to_dict('records')}"
     
     # Generate financial insights using Gemini
-    insights = generate_financial_insights(summary_data)
-    
-    return financial_df, history, insights
+    insights = generate_financial_insights(str(stock_data))
+    return insights
 
 # # Example usage
 # ticker = "MSFT"
