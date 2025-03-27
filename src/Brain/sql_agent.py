@@ -24,7 +24,7 @@ from os import environ
 import logging 
 
 
-DB_PATH = "./Data/financial_Db.db"
+DB_PATH = "./Data/financial_DB.db"
 
 
 def load_database():
