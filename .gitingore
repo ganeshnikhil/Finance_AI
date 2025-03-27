@@ -1,0 +1,44 @@
+# Ignore virtual environment
+.venv/
+.env
+*.env
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Database files
+*.sqlite3
+*.db
+*.sqlite
+
+# Logs and debug output
+*.log
+*.out
+*.err
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Python virtual environment
+*.venv/
+*.env/
+*.virtualenv/
+
+# VS Code settings
+.vscode/
+*.code-workspace
+
+# PyCharm project files
+.idea/
+*.iml
+
+# Cache files
+*.cache/
+*.pytest_cache/
