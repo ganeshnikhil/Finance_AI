@@ -76,7 +76,9 @@ Welcome to the **Finance Management System** – an intelligent voice-enabled as
 14 directories, 40 files
 ```
 
----
+-------------------
+![alt text](dig.png)
+--------------------
 
 ## 🧑‍💻 Getting Started
 
